@@ -1,9 +1,15 @@
 import icsGenerate
 from icalendar import Calendar, Event
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date 
 
-startday = datetime(2023, 12, 11, 0, 0, 0)
-slotName = {"Slot1" : 7, "Slot2": 9.5, "Slot3": 13, "Slot4": 15.5, "Slot5": 18, "Slot6": 16.25, "Slot7": 16, "Slot8": 17}
+# Import current date/time
+datnow = date.today()
+startday = date.today().__str__().split("-") + datetime.now().strftime('%H:%M:%S').__str__().split(":")
+print(startday)
+
+
+slotName = {"Slot1" : 7, "Slot2": 9.5, "Slot3": 13, "Slot4": 15.5, 
+            "Slot5": 18, "Slot6": 16.25, "Slot7": 16, "Slot8": 17}
 subjName = [ "DSA103"]
 
 

@@ -1,0 +1,8 @@
+Slot 1 - CSD203- $SG104- DBI202- CEA201- - -
+Slot 2 - DBI202- CEA201- CSD203- $SG104- - -
+Slot 3 - - - - - - -
+Slot 4 - - - - - - -
+Slot 5 - - - - - - -
+Slot 6 - - VOV124- - VOV124- VOV124- -
+Slot7 - - - - - - -
+Slot 8 - - - - - - -
